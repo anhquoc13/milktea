@@ -1,5 +1,6 @@
 <?php
-    include "Models/DBConfig.php";
-    $db = new Database;
-    $db->connect();
+    require_once('Controllers/NewsController.php');
+
+    $newsController = new NewsController();
+    $newsController->getNews();
 ?>
