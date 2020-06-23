@@ -4,6 +4,9 @@
             require_once('Templates/News.php');
         }
 
+        public function showNews($id){
+            require_once('Templates/showNews.php');
+        }
 
     }
 

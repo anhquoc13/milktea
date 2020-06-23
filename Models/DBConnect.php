@@ -10,12 +10,12 @@
 
         public function connect()
         {
-           $this->conn = mysqli_connect($this->hostname, $this->username, $this->password, $this->dbname);
+            $con = mysqli_connect($this->hostname,$this->username,$this->password,$this->dbname);
+            mysqli_set_charset($con, 'utf8');
+
             if(mysqli_connect_error()){
-                echo 'Connect error: ' . mysqli_connect_error();
-                
+                echo 'Connect error' . mysqli_connect_error();
             }
-            return $this->conn;
         }
     }
 

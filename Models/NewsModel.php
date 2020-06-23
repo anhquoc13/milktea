@@ -2,7 +2,8 @@
     
     class NewsModel{
         
-        public function getNews(){
+
+        public function getAllNews(){
             $con = mysqli_connect('localhost','root','','qlts');
             mysqli_set_charset($con, 'utf8');
 
@@ -18,6 +19,11 @@
                 }
             }
             return $NewsArray;
+        }
+
+        //Take one News
+        public function getNews($Id){
+
         }
     }
 
