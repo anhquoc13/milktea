@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="./public/css/News.css">
 </head>
 <body>
-    <?php include './Templates/Header.php' ?>
-    
+    <?php include './Templates/Header.php'?>
+
     <div class="container">
-        <?php foreach($NewsArray as $news){?>
+        <?php foreach ($newsArray as $news) {?>
             <div class="col" >
             <img src="<?php echo $news['imageS'] ?>">
             <h4><?php echo $news['title'] ?></h4>
-            <a href="#">Chi tiết</a>
+            <a href="./?action=news&article=<?php echo $news['N_id'] ?>">Chi tiết</a>
             </div>
         <?php }?>
     </div>
-
-    <?php include './Templates/Footer.php' ?>
+    <?php include './Templates/Footer.php'?>
 </body>
 </html>
