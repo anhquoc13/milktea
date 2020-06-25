@@ -26,8 +26,13 @@ switch ($action) {
         $newsController->getAllNews();
         break;
     default:
+        // change to home page
         require_once 'Controllers/NewsController.php';
         $newsController = new NewsController();
-        $newsController->getAllNews();
+        if (!$articleId) {
+            $newsController->showAllNews();
+        } else {
+            $newsController->showNewsArticle($articleId);
+        }
         break;
 }
