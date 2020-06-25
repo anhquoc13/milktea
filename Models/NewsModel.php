@@ -1,33 +1,21 @@
 <?php
     
+    require 'DBConnect.php';
+
     class NewsModel{
         
-
         public function getAllNews(){
-            $con = mysqli_connect('localhost','root','','qlts');
-            mysqli_set_charset($con, 'utf8');
-
-            if(mysqli_connect_error()){
-                echo 'Connect error' . mysqli_connect_error();
-            }
-            $result = $con->query('Select * FROM news');
-
-            $NewsArray  = array();
-            if($result->num_rows > 0){
-                while($news = mysqli_fetch_assoc($result)){
-                    $NewsArray[] = $news;
-                }
-            }
-            return $NewsArray;
+            $db = new db();
+            $result = $db->query('Select * FROM news');
+            return $db->fetchAll($result);
         }
 
         //Take one News
         public function getNews($Id){
-
+            $db = new db();
+            $result = $db->query("SELECT FROM news WHERE 'N_Id'='" .$Id. "'");
+            return $result;
         }
     }
-
-
-
 
 ?>
