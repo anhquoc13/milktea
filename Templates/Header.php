@@ -6,8 +6,8 @@
             <h2> <span class="bold">NOISECHA</span> - LOGO DESIGN</h2>
         </div>
         <nav>
-            <a href="#" class="navButton">ABOUT</a>
-            <a href="#" class="navButton">MENU</a>
+            <a href="./?action=news" class="navButton">ABOUT</a>
+            <a href="./?action=menu" class="navButton">MENU</a>
             <a href="#" class="navButton">NEWS & PROMOTION</a>
             <a href="#" class="navButton">STORE</a>
         </nav>
