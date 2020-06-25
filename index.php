@@ -1,12 +1,17 @@
 <?php
 // ?action
 $action = $_GET['action'];
+$articleId = $_GET['article'];
 
 switch ($action) {
     case "news":
         require_once 'Controllers/NewsController.php';
         $newsController = new NewsController();
-        $newsController->getAllNews();
+        if (!$articleId) {
+            $newsController->showAllNews();
+        } else {
+            $newsController->showNewsArticle($articleId);
+        }
         break;
     case "store":
         require_once 'Controllers/NewsController.php';
