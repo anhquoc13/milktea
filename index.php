@@ -1,7 +1,8 @@
 <?php
 // ?action
-$action = $_GET['action'];
-$articleId = $_GET['article'];
+// ($var > 2 ? true : false)
+$action = isset($_GET['action']) ? $action = $_GET['action'] : null;
+$articleId = isset($_GET['article']) ? $articleId = $_GET['article'] : null;
 
 switch ($action) {
     case "news":
