@@ -1,19 +1,27 @@
 <?php
-    class NewsController{
 
-        public function getAllNews(){
-            require_once('Models/NewsModel.php');
-            $newsModel = new NewsModel();
-            $NewsArray = $newsModel->getAllNews();
-
-            require_once('Views/NewsView.php');
-            $NewsView = new NewsView();
-            $NewsView->showAllNews($NewsArray);
-        }
-
-        public function showNews(){
-            echo 'hello';
-        }
+class NewsController
+{
+    public function showNewsArticle($id)
+    {
+        require_once 'Models/NewsModel.php';
+        require_once 'Views/NewsView.php';
+        $NewsModel = new NewsModel();
+        $newsArticle = $NewsModel->getNews($id);
+        $NewsView = new NewsView();
+        $NewsView->showNews($newsArticle);
     }
 
-?>
+    public function showAllNews()
+    {
+        require_once 'Models/NewsModel.php';
+        require_once 'Views/NewsView.php';
+        $NewsModel = new NewsModel();
+        $newsArray = $NewsModel->getAllNews();
+        $NewsView = new NewsView();
+        $NewsView->showAllNews($newsArray);
+    }
+
+}
+/*
+ */
