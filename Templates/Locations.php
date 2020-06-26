@@ -8,7 +8,9 @@
 </head>
 <body>
     <?php include './Templates/Header.php'?>
- 
+ <div class="banner">
+    <img src="././source/image/events/banner.jpg">
+ </div>
     <div  class="test main">
         <?php foreach ($LocationsArray as $Locations) {?>
             <div class="col"  >
