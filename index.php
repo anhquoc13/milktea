@@ -15,16 +15,14 @@ switch ($action) {
         }
         break;
     case "store":
-        require_once 'Controllers/NewsController.php';
-        $newsController = new NewsController();
-        $newsController->getAllNews();
+        require_once 'Controllers/LocationsController.php';
+        $locationsController = new LocationsController();
+        $locationsController->showAllLocations();
         break;
     case "menu":
-        echo "this is menu";
-        break;
-        require_once 'Controllers/NewsController.php';
-        $newsController = new NewsController();
-        $newsController->getAllNews();
+        require_once 'Controllers/ProductController.php';
+        $productController = new ProductController();
+        $productController->showAllProduct();
         break;
     default:
         // change to home page
