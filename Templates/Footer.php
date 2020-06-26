@@ -1,3 +1,7 @@
-<div class="footer">
-	<h3 style="background-color:#484848; text-align:center ; line-height:80px; color:#fff; font-size:18px;">NOISECHA - Copyright 2020.</h3>
-</div>
+<link rel="stylesheet" href="./public/css/Footer.css">
+
+
+
+<footer>
+<h3 >NOISECHA - Copyright 2020.</h3>
+</footer>
