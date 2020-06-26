@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List News</title>
-    <style>
-    </style>
+    <link rel="stylesheet" href="./public/css/News.css">
 </head>
 <body>
-    <?php foreach($NewsArray as $news): ?>
-    <div class="cards" >
-    <img src="<?php echo $news['imageS'] ?>">
-    <h2><?php echo $news['title'] ?></h2>
-    <p><?php echo $news['body']?></p>
+    <?php include './Templates/Header.php'?>
+
+    <div class="container">
+        <?php foreach ($newsArray as $news) {?>
+            <div class="col" >
+            <img src="<?php echo $news['imageS'] ?>">
+            <h4><?php echo $news['title'] ?></h4>
+            <a href="./?action=news&article=<?php echo $news['N_id'] ?>">Chi tiết</a>
+            </div>
+        <?php }?>
     </div>
-    <?php endforeach; ?>
+    <?php include './Templates/Footer.php'?>
 </body>
 </html>
