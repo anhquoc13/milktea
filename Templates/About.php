@@ -1,264 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="./public/css/About.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="./public/css/About.css">
 </head>
+
 <body>
-    <?php include './Templates/Header.php'?>
-<div class="banner">
+  <?php include './Templates/Header.php'?>
+  <div class="banner">
 
-<img src="./source/image/about/wallpaper.jpg" style="height: 100%; width: 100%">
-<h1 style="position: absolute; left: 43%;top: 80px; color: white;font-family:Courier New;">ABOUT US</h1>
-<div style="position: absolute; left: 40px; top: 200px;">
-	
-<!-- Trong đoạn Code này, bạn có thể thay đổi các chi tiết (tên riêng của bạn, của riêng bạn avatar vv), nhưng không làm thay đổi cấu trúc cơ bản! -->
+    <img src="./source/image/about/wallpaper.jpg" style="height: 100%; width: 100%">
+    <h1 style="position: absolute; left: 43%;top: 80px; color: white;font-family:Courier New;">ABOUT US</h1>
+    <div style="position: absolute; left: 40px; top: 200px;">
 
-<aside class="profile-card">
+      <!-- Trong đoạn Code này, bạn có thể thay đổi các chi tiết (tên riêng của bạn, của riêng bạn avatar vv), nhưng không làm thay đổi cấu trúc cơ bản! -->
 
-  <header>
-    <link rel="stylesheet" type="text/css" href="./public/css/About.css">
-    <!-- Hình của bạn -->
-    <a href="https://www.facebook.com/aquoc13">
-      <img src="./source/image/about/11168856_397424623781854_9062847210205773409_n.jpg">
-    </a>
+      <aside class="profile-card">
 
-    <!-- Tên của bạn -->
-    <h1>Đặng Quốc Anh</h1>
+        <header>
+          <link rel="stylesheet" type="text/css" href="./public/css/About.css">
+          <!-- Hình của bạn -->
+          <a href="https://www.facebook.com/aquoc13">
+            <img src="./source/image/about/11168856_397424623781854_9062847210205773409_n.jpg">
+          </a>
 
-    <!-- Công việc hay nghề của bạn -->
-    <h2>- Web Developer -</h2>
+          <!-- Tên của bạn -->
+          <h1>Đặng Quốc Anh</h1>
 
-  </header>
+          <!-- Công việc hay nghề của bạn -->
+          <h2>- Web Developer -</h2>
 
-  <!-- Thêm thông tin của bạn -->
-  <div class="profile-bio">
+        </header>
 
-    <p>Chào mừng các bạn</p>
-    <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS, JS và WordPress.
-      <br>Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và vài thứ khác.</p>
+        <!-- Thêm thông tin của bạn -->
+        <div class="profile-bio">
 
-  </div>
+          <p>Chào mừng các bạn</p>
+          <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS, JS và WordPress.
+            <br>Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và vài thứ khác.</p>
 
-  <!-- Liên kết mạng xã hội -->
-  <ul class="profile-social-links">
+        </div>
 
-    <!-- twitter - el clásico  -->
-    <li>
-      <a href="http://twitter.com/">
-        <img src="./source/image/about/social-twitter.svg">
-      </a>
-    </li>
+        <!-- Liên kết mạng xã hội -->
+        <ul class="profile-social-links">
 
-    <!-- envato – use this one to link to your marketplace profile -->
-    <li>
-      <a href="https://www.facebook.com/aquoc13">
-        <img src="./source/image/about/34651248062_73641b1a80_o.png">
-      </a>
-    </li>
+          <!-- twitter - el clásico  -->
+          <li>
+            <a href="http://twitter.com/">
+              <img src="./source/image/about/social-twitter.svg">
+            </a>
+          </li>
 
-    <!-- Tài khoản Google +-->
-    <li>
-      <a href="https://plus.google.com/u/0/118260931574775251745/posts">
-        <img src="./source/image/about/34004419773_ed97040ef5_o.png">
-      </a>
-    </li>
+          <!-- envato – use this one to link to your marketplace profile -->
+          <li>
+            <a href="https://www.facebook.com/aquoc13">
+              <img src="./source/image/about/34651248062_73641b1a80_o.png">
+            </a>
+          </li>
 
-    <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
+          <!-- Tài khoản Google +-->
+          <li>
+            <a href="https://plus.google.com/u/0/118260931574775251745/posts">
+              <img src="./source/image/about/34004419773_ed97040ef5_o.png">
+            </a>
+          </li>
 
-  </ul>
+          <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
 
-</aside>
-<!-- Chỉ có vậy thôi ! -->
-<div>
-<div style="position: absolute; left: 310px;top: 0px;">
-	
-<!-- Trong đoạn Code này, bạn có thể thay đổi các chi tiết (tên riêng của bạn, của riêng bạn avatar vv), nhưng không làm thay đổi cấu trúc cơ bản! -->
+        </ul>
 
-<aside class="profile-card">
+      </aside>
+      <!-- Chỉ có vậy thôi ! -->
+      <div>
+        <div style="position: absolute; left: 310px;top: 0px;">
 
-  <header>
-    <link rel="stylesheet" type="text/css" href="./public/css/About.css">
-    <!-- Hình của bạn -->
-    <a href="https://www.facebook.com/aquoc13">
-      <img src="./source/image/about/28685052_929456617230214_1092620471573254622_n.jpg">
-    </a>
+          <!-- Trong đoạn Code này, bạn có thể thay đổi các chi tiết (tên riêng của bạn, của riêng bạn avatar vv), nhưng không làm thay đổi cấu trúc cơ bản! -->
 
-    <!-- Tên của bạn -->
-    <h1>Đặng Quốc Anh</h1>
+          <aside class="profile-card">
 
-    <!-- Công việc hay nghề của bạn -->
-    <h2>- Web Developer -</h2>
+            <header>
+              <link rel="stylesheet" type="text/css" href="./public/css/About.css">
+              <!-- Hình của bạn -->
+              <a href="https://www.facebook.com/aquoc13">
+                <img src="./source/image/about/28685052_929456617230214_1092620471573254622_n.jpg">
+              </a>
 
-  </header>
+              <!-- Tên của bạn -->
+              <h1>Đặng Quốc Anh</h1>
 
-  <!-- Thêm thông tin của bạn -->
-  <div class="profile-bio">
+              <!-- Công việc hay nghề của bạn -->
+              <h2>- Web Developer -</h2>
 
-    <p>Chào mừng các bạn</p>
-    <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS, JS và WordPress.
-      <br>Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và vài thứ khác.</p>
+            </header>
 
-  </div>
+            <!-- Thêm thông tin của bạn -->
+            <div class="profile-bio">
 
-  <!-- Liên kết mạng xã hội -->
-  <ul class="profile-social-links">
+              <p>Chào mừng các bạn</p>
+              <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS, JS và WordPress.
+                <br>Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và vài thứ khác.</p>
 
-    <!-- twitter - el clásico  -->
-    <li>
-      <a href="http://twitter.com/">
-        <img src="./source/image/about/social-twitter.svg">
-      </a>
-    </li>
+            </div>
 
-    <!-- envato – use this one to link to your marketplace profile -->
-    <li>
-      <a href="https://www.facebook.com/aquoc13">
-        <img src="./source/image/about/34651248062_73641b1a80_o.png">
-      </a>
-    </li>
+            <!-- Liên kết mạng xã hội -->
+            <ul class="profile-social-links">
 
-    <!-- Tài khoản Google +-->
-    <li>
-      <a href="https://plus.google.com/u/0/118260931574775251745/posts">
-        <img src="./source/image/about/34004419773_ed97040ef5_o.png">
-      </a>
-    </li>
+              <!-- twitter - el clásico  -->
+              <li>
+                <a href="http://twitter.com/">
+                  <img src="./source/image/about/social-twitter.svg">
+                </a>
+              </li>
 
-    <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
+              <!-- envato – use this one to link to your marketplace profile -->
+              <li>
+                <a href="https://www.facebook.com/aquoc13">
+                  <img src="./source/image/about/34651248062_73641b1a80_o.png">
+                </a>
+              </li>
 
-  </ul>
+              <!-- Tài khoản Google +-->
+              <li>
+                <a href="https://plus.google.com/u/0/118260931574775251745/posts">
+                  <img src="./source/image/about/34004419773_ed97040ef5_o.png">
+                </a>
+              </li>
 
-</aside>
-<!-- Chỉ có vậy thôi ! -->
-<div>
-<div style="position: absolute; left: 310px; top: 0px;">
-	
-<!-- Trong đoạn Code này, bạn có thể thay đổi các chi tiết (tên riêng của bạn, của riêng bạn avatar vv), nhưng không làm thay đổi cấu trúc cơ bản! -->
+              <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
 
-<aside class="profile-card">
+            </ul>
 
-  <header>
-    <link rel="stylesheet" type="text/css" href="./public/css/About.css">
-    <!-- Hình của bạn -->
-    <a href="https://www.facebook.com/aquoc13">
-      <img src="./source/image/about/81151810_1054484074884305_5444482234411122688_n.jpg">
-    </a>
+          </aside>
+          <!-- Chỉ có vậy thôi ! -->
+          <div>
+            <div style="position: absolute; left: 310px; top: 0px;">
 
-    <!-- Tên của bạn -->
-    <h1>Đặng Quốc Anh</h1>
+              <!-- Trong đoạn Code này, bạn có thể thay đổi các chi tiết (tên riêng của bạn, của riêng bạn avatar vv), nhưng không làm thay đổi cấu trúc cơ bản! -->
 
-    <!-- Công việc hay nghề của bạn -->
-    <h2>- Web Developer -</h2>
+              <aside class="profile-card">
 
-  </header>
+                <header>
+                  <link rel="stylesheet" type="text/css" href="./public/css/About.css">
+                  <!-- Hình của bạn -->
+                  <a href="https://www.facebook.com/aquoc13">
+                    <img src="./source/image/about/81151810_1054484074884305_5444482234411122688_n.jpg">
+                  </a>
 
-  <!-- Thêm thông tin của bạn -->
-  <div class="profile-bio">
+                  <!-- Tên của bạn -->
+                  <h1>Đặng Quốc Anh</h1>
 
-    <p>Chào mừng các bạn</p>
-    <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS, JS và WordPress.
-      <br>Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và vài thứ khác.</p>
+                  <!-- Công việc hay nghề của bạn -->
+                  <h2>- Web Developer -</h2>
 
-  </div>
+                </header>
 
-  <!-- Liên kết mạng xã hội -->
-  <ul class="profile-social-links">
+                <!-- Thêm thông tin của bạn -->
+                <div class="profile-bio">
 
-    <!-- twitter - el clásico  -->
-    <li>
-      <a href="http://twitter.com/">
-        <img src="./source/image/about/social-twitter.svg">
-      </a>
-    </li>
+                  <p>Chào mừng các bạn</p>
+                  <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS, JS và
+                    WordPress.
+                    <br>Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và vài thứ
+                    khác.</p>
 
-    <!-- envato – use this one to link to your marketplace profile -->
-    <li>
-      <a href="https://www.facebook.com/aquoc13">
-        <img src="./source/image/about/34651248062_73641b1a80_o.png">
-      </a>
-    </li>
+                </div>
 
-    <!-- Tài khoản Google +-->
-    <li>
-      <a href="https://plus.google.com/u/0/118260931574775251745/posts">
-        <img src="./source/image/about/34004419773_ed97040ef5_o.png">
-      </a>
-    </li>
+                <!-- Liên kết mạng xã hội -->
+                <ul class="profile-social-links">
 
-    <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
+                  <!-- twitter - el clásico  -->
+                  <li>
+                    <a href="http://twitter.com/">
+                      <img src="./source/image/about/social-twitter.svg">
+                    </a>
+                  </li>
 
-  </ul>
+                  <!-- envato – use this one to link to your marketplace profile -->
+                  <li>
+                    <a href="https://www.facebook.com/aquoc13">
+                      <img src="./source/image/about/34651248062_73641b1a80_o.png">
+                    </a>
+                  </li>
 
-</aside>
-<!-- Chỉ có vậy thôi ! -->
-<div>
-<div style="position: absolute; left: 310px; top: 0px;">
-	
-<!-- Trong đoạn Code này, bạn có thể thay đổi các chi tiết (tên riêng của bạn, của riêng bạn avatar vv), nhưng không làm thay đổi cấu trúc cơ bản! -->
+                  <!-- Tài khoản Google +-->
+                  <li>
+                    <a href="https://plus.google.com/u/0/118260931574775251745/posts">
+                      <img src="./source/image/about/34004419773_ed97040ef5_o.png">
+                    </a>
+                  </li>
 
-<aside class="profile-card">
+                  <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
 
-  <header>
-    <link rel="stylesheet" type="text/css" href="./public/css/About.css">
-    <!-- Hình của bạn -->
-    <a href="https://www.facebook.com/aquoc13">
-      <img src="./source/image/about/41387980_2117935195134933_1955902280960049152_n.jpg">
-    </a>
+                </ul>
 
-    <!-- Tên của bạn -->
-    <h1>Đặng Quốc Anh</h1>
+              </aside>
+              <!-- Chỉ có vậy thôi ! -->
+              <div>
+                <div style="position: absolute; left: 310px; top: 0px;">
 
-    <!-- Công việc hay nghề của bạn -->
-    <h2>- Web Developer -</h2>
+                  <!-- Trong đoạn Code này, bạn có thể thay đổi các chi tiết (tên riêng của bạn, của riêng bạn avatar vv), nhưng không làm thay đổi cấu trúc cơ bản! -->
 
-  </header>
+                  <aside class="profile-card">
 
-  <!-- Thêm thông tin của bạn -->
-  <div class="profile-bio">
+                    <header>
+                      <link rel="stylesheet" type="text/css" href="./public/css/About.css">
+                      <!-- Hình của bạn -->
+                      <a href="https://www.facebook.com/aquoc13">
+                        <img src="./source/image/about/41387980_2117935195134933_1955902280960049152_n.jpg">
+                      </a>
 
-    <p>Chào mừng các bạn</p>
-    <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS, JS và WordPress.
-      <br>Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và vài thứ khác.</p>
+                      <!-- Tên của bạn -->
+                      <h1>Đặng Quốc Anh</h1>
 
-  </div>
+                      <!-- Công việc hay nghề của bạn -->
+                      <h2>- Web Developer -</h2>
 
-  <!-- Liên kết mạng xã hội -->
-  <ul class="profile-social-links">
+                    </header>
 
-    <!-- twitter - el clásico  -->
-    <li>
-      <a href="http://twitter.com/">
-        <img src="./source/image/about/social-twitter.svg">
-      </a>
-    </li>
+                    <!-- Thêm thông tin của bạn -->
+                    <div class="profile-bio">
 
-    <!-- envato – use this one to link to your marketplace profile -->
-    <li>
-      <a href="https://www.facebook.com/aquoc13">
-        <img src="./source/image/about/34651248062_73641b1a80_o.png">
-      </a>
-    </li>
+                      <p>Chào mừng các bạn</p>
+                      <p>Tôi là một nhà phát triển web. Tôi chủ yếu làm việc với PHP, HTML, CSS,
+                        JS và WordPress.
+                        <br>Tôi cũng làm việc tốt với Photoshop, Corel Draw, After Effects và
+                        vài thứ khác.</p>
 
-    <!-- Tài khoản Google +-->
-    <li>
-      <a href="https://plus.google.com/u/0/118260931574775251745/posts">
-        <img src="./source/image/about/34004419773_ed97040ef5_o.png">
-      </a>
-    </li>
+                    </div>
 
-    <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
+                    <!-- Liên kết mạng xã hội -->
+                    <ul class="profile-social-links">
 
-  </ul>
+                      <!-- twitter - el clásico  -->
+                      <li>
+                        <a href="http://twitter.com/">
+                          <img src="./source/image/about/social-twitter.svg">
+                        </a>
+                      </li>
 
-</aside>
-<!-- Chỉ có vậy thôi ! -->
-<div>
-</div>
-    <div class="container">
-    </div>
-    <?php include './Templates/Footer.php'?>
+                      <!-- envato – use this one to link to your marketplace profile -->
+                      <li>
+                        <a href="https://www.facebook.com/aquoc13">
+                          <img src="./source/image/about/34651248062_73641b1a80_o.png">
+                        </a>
+                      </li>
+
+                      <!-- Tài khoản Google +-->
+                      <li>
+                        <a href="https://plus.google.com/u/0/118260931574775251745/posts">
+                          <img src="./source/image/about/34004419773_ed97040ef5_o.png">
+                        </a>
+                      </li>
+
+                      <!--Bạn có thể thêm hoặc xóa mạng xã hội tại đây-->
+
+                    </ul>
+
+                  </aside>
+                  <!-- Chỉ có vậy thôi ! -->
+                  <div>
+                  </div>
+                  </div>
+                  </div>
+                  </div></div></div></div></div>
+
 </body>
+<?php include './Templates/Footer.php'?>
+
 </html>

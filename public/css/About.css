@@ -74,6 +74,10 @@ aside:hover header h1 {
   border-bottom: 0px solid #fff;
 }
 
+.container footer {
+  margin-right: 100px;
+}
+
 header h2 {
   text-align: center;
   color: #fff;
