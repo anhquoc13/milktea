@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="./public/css/News.css">
+    <link rel="stylesheet" href="./public/css/About.css">
 </head>
 <body>
     <?php include './Templates/Header.php'?>

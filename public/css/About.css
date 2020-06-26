@@ -7,15 +7,30 @@ header img {
   border: 5px solid #fff;
 }
 
+.container {
+  min-height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 130px;
+}
+
+.banner {
+  margin-left: 0px;
+  top: -60px;
+  align-self: center;
+  position: relative;
+  margin-top: 0px;
+}
+
 aside {
-  border-top: 0px solid #26A69A;
-  border-bottom: 0px solid #00695C;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
   height: 250px;
   width: 250px;
-  background: url(http://farm5.staticflickr.com/4180/34813900975_be65f5a553_o.jpg);
   background-size: cover;
   overflow: hidden;
   box-shadow: 0 0 100px 10px #fff;
@@ -23,8 +38,6 @@ aside {
 }
 
 aside:hover {
-  border-top: 4px solid #26A69A;
-  border-bottom: 4px solid #00695C;
   border-radius: 5px;
   height: 480px;
   width: 350px;
@@ -50,15 +63,15 @@ header h1 {
   display: inline-block;
   padding: 10px;
   transition: all ease 0.250s;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 0px solid #fff;
+  border-bottom: 0px solid #fff;
 }
 
 aside:hover header h1 {
   margin-top: 0px;
   outline: 0 solid #fff;
   border-top: 0px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-bottom: 0px solid #fff;
 }
 
 header h2 {
