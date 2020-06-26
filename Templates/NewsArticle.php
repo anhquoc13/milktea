@@ -7,10 +7,12 @@
         .outside{
             background-image:url(./source/image/background-details.jpeg);
             display:flex;
-            height:100%;
+            min-height:100%;
             width:100%;
 
         }
+
+
         .containerDetails{
             margin-top:40px;
             margin-bottom: 40px;
