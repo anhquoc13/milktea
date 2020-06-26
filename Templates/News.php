@@ -17,6 +17,7 @@
             <a href="./?action=news&article=<?php echo $news['N_id'] ?>">Chi tiết</a>
             </div>
         <?php }?>
+
     </div>
     <?php include './Templates/Footer.php'?>
 </body>
