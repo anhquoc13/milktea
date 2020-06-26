@@ -9,7 +9,7 @@
 <body>
     <?php include './Templates/Header.php'?>
  
-    <div  class="test">
+    <div  class="test main">
         <?php foreach ($LocationsArray as $Locations) {?>
             <div class="col"  >
          
