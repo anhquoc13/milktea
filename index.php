@@ -24,6 +24,11 @@ switch ($action) {
         $productController = new ProductController();
         $productController->showAllProduct();
         break;
+    case "about":
+        require_once 'Controllers/AboutController.php';
+        $aboutController = new AboutController();
+        $aboutController->showAbout();
+        break;
     default:
         // change to home page
         require_once 'Controllers/NewsController.php';
