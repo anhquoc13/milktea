@@ -219,9 +219,6 @@ a.outline{
 	</style>
 </head>
 <body>
-<<<<<<< HEAD
-    home
-=======
 <?php include './Templates/Header.php'?>
 	<div id="slider">
 		<figure>
@@ -343,6 +340,5 @@ a.outline{
 			</div>
 		</div>
         <?php include './Templates/Footer.php'?>
->>>>>>> cb5509ae9a77130401925500ee017155bc50f740
 </body>
 </html>
