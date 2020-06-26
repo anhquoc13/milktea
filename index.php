@@ -20,9 +20,9 @@ switch ($action) {
         $locationsController->showAllLocations();
         break;
     case "menu":
-        require_once 'Controllers/ProductController.php';
-        $productController = new ProductController();
-        $productController->showAllProduct();
+        require_once 'Controllers/ProductsController.php';
+        $productsController = new ProductsController();
+        $productsController->showAllProducts();
         break;
     case "about":
         require_once 'Controllers/AboutController.php';
@@ -31,12 +31,8 @@ switch ($action) {
         break;
     default:
         // change to home page
-        require_once 'Controllers/NewsController.php';
-        $newsController = new NewsController();
-        if (!$articleId) {
-            $newsController->showAllNews();
-        } else {
-            $newsController->showNewsArticle($articleId);
-        }
+        require_once 'Controllers/HomeController.php';
+        $HomeController= new HomeController();
+        $HomeController->showHome();
         break;
 }
