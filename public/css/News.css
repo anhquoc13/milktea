@@ -47,14 +47,8 @@ html {
   padding: 2.8%;
   color: white;
 }
-.banner{
-  margin-left: 0px;
-  top:-30px;
-  left: -120px;
-  align-self: center;
-  position: relative;
-  margin-top: 0px;
-  width: 80%;
+.banner {
+  background-image: url(/Applications/XAMPP/xamppfiles/htdocs.bak/source/image/events/banner-tintuc-uudai.jpg);
 }
 .col a:visited {
   color: white;
